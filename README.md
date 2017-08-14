@@ -16,7 +16,7 @@ docker build -t jubba/docker-bamboo-6.1-base-agent:latest .
 # Running
 Run this command to run the container 
 ```bash
-docker run -d -u=root --name bamboo-base-agent -e BAMBOO_SERVER=http://YOUR-BAMBOO-SERVER-URL:PORT/agentServer/ jubba/docker-bamboo-6.1-base-agent:latest
+docker run -d -u=root -h bamboo-base-agent-1 --name bamboo-base-agent-1 -e BAMBOO_SERVER=http://YOUR-BAMBOO-SERVER-URL:PORT/agentServer/ jubba/docker-bamboo-6.1-base-agent:latest
 ```
 # Test
 Follow the following steps to make sure your Bamboo agent can connect to Bamboo server:
