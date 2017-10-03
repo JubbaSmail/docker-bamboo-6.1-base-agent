@@ -4,8 +4,11 @@ Dockerfile Bamboo 6.1 Base Agent
 <img width="200" src="https://www.docker.com/sites/default/files/Whale%20Logo332_5.png"/><img width="300" src="https://wac-cdn.atlassian.com/dam/jcr:4f99ae3f-808f-44f1-9647-2b7cb87bb0e6/bamboo_rgb_slate.png?cdnVersion=fr"/>
 
 # Building
-Clone the project to your directory
+The app size on Github is larger than 100 MB, you need to use git lfs to clone it to your machine:
+
 ```bash
+brew install git-lfs
+git lfs install
 git clone https://github.com/Ismail-AlJubbah/docker-bamboo-6.1-base-agent
 ```
 Then build the image
